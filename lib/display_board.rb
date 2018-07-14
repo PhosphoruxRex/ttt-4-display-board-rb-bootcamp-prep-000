@@ -4,9 +4,9 @@
 def display_board(board)
   sep = "|"
   lines = "-----------"
-  puts "#{board[0]}#{sep}#{board[1]}#{sep}#{board[2]}"
+  puts " #{board[0]} #{sep} #{board[1]} #{sep} #{board[2]} "
   puts "#{lines}"
-  puts "#{board[3]}#{sep}#{board[4]}#{sep}#{board[5]}"
+  puts " #{board[3]} #{sep} #{board[4]} #{sep} #{board[5]} "
   puts "#{lines}"
-  puts "#{board[6]}#{sep}#{board[7]}#{sep}#{board[8]}"
+  puts " #{board[6]} #{sep} #{board[7]} #{sep} #{board[8]} "
 end
